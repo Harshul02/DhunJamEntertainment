@@ -32,8 +32,9 @@ const Login = () => {
     };
 
     return (
+        <>
+        <Toaster toastOptions={{duration: 5000}}/>
         <div id="login">
-        <Toaster />
             <h1>Venue Admin Login</h1>
             <div>
                 <input
@@ -71,6 +72,7 @@ const Login = () => {
             </button>
             <p>New Registration?</p>
         </div>
+        </>
     );
 }
 

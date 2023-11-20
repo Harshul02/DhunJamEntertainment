@@ -90,3 +90,28 @@
     transition: border-color 0.3s;
     border-radius: 12px;
   }
+
+  #submitButton:hover, #submitButton:active {
+    border-color: #f0c3f1;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  input:disabled {
+    color: #c2c2c2;
+    border-color: #c2c2c2;
+    cursor: not-allowed;
+  }
+  
+  #submitButton:disabled {
+    color: #c2c2c2;
+    border-color: #c2c2c2;
+    cursor: not-allowed;
+  }
+  button:hover{
+    border-color:  #F0C3F1;
+    border-width: 1px;
+  }
